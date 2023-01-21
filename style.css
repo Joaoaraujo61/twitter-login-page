@@ -1,0 +1,55 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+    display: inline-block;
+    padding-left: 70px;
+}
+h1{
+    font-size: 7vw;
+    position: absolute;
+    top: 140px;
+    left: 450px;
+}
+h2{
+    position: absolute;
+    top: 270px;
+    left: 450px;
+}
+div#txt{
+    position: absolute;
+    top: 370px;
+    left: 450px;
+    text-align: center;
+}
+span#apple{
+    border-color: black;
+    border-radius: 100px;
+}
+div#img{
+    display: inline-block;
+    background-image: url(img/bckgr.png);
+    background-position: top center ;
+    width: 420px;
+    height: 680px;
+    position: absolute;
+    margin-right: 300px;
+}
+img#la{
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    left: 120px;
+    width: 45px;
+    height: 36px;
+}
+img#lb{
+    position: relative;
+    top: 250px;
+    left: 30px;
+    width: 330px;
+    height: 280px;
+}
